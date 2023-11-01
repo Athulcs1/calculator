@@ -1,0 +1,19 @@
+#calc-body{
+    width: 350px;
+}
+
+#calc{
+    height: 600px;
+    background-color: rgb(59, 141, 141);
+    border-radius: 11px;
+    padding-left: 10px;
+    border: 7PX solid rgb(0, 0, 0);
+    scroll-padding-right: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    #calc-body{
+        height: 100%;
+    }
+}
